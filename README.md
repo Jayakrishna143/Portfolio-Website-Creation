@@ -26,9 +26,9 @@ The application follows a simple and deterministic pipeline:
 
 The LLM generates:
 
-1.index.html
-2.style.css
-3.script.js
+1.index.html,
+2.style.css,
+3.script.js,
 
 All files are bundled into a ZIP file
 User downloads the ready-to-use portfolio website
@@ -37,17 +37,13 @@ The model is explicitly instructed to output code in a fixed delimiter-based for
 
 Tech Stack
 
-1.Python
-2.Streamlit – UI and user interaction
-3.LangChain – LLM orchestration
-4.Google Gemini (gemini-2.5-flash-lite) – Code generation
-5.PyPDF – PDF text extraction
-6.python-docx – DOCX text extraction
-7.Features
-8.Supports both PDF and DOCX resumes
-
-No manual text input required
-Generates clean frontend code automatically
+1.Python,
+2.Streamlit – UI and user interaction,
+3.LangChain – LLM orchestration,
+4.Google Gemini (gemini-2.5-flash-lite) – Code generation,
+5.PyPDF – PDF text extraction,
+6.python-docx – DOCX text extraction,
+Features:Supports both PDF and DOCX resumes,No manual text input required,Generates clean frontend code automatically
 
 Downloadable ZIP output
 
